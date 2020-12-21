@@ -24,4 +24,4 @@ WinActivate, ahk_exe Discord.exe
 	Send, {enter}
         Sleep, 1400
    }
-	
+   Esc::ExitApp
