@@ -4,7 +4,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
-^f::
+f4::
 WinActivate, ahk_exe Discord.exe
    loop, 5
    {
